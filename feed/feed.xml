@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="sv">
 	<title>Bostadsrättsföreningen Boken i Hovmantorp</title>
 	<subtitle></subtitle>
-	<link href="https://brfboken.nu/feed/feed.xml" rel="self"/>
-	<link href="https://brfboken.nu/"/>
+	<link href="https://brfboken.nu/Hemsidan/feed/feed.xml" rel="self"/>
+	<link href="https://brfboken.nu/Hemsidan/"/>
 	<updated>2024-03-23T00:00:00Z</updated>
 	<id>https://brfboken.nu/</id>
 	<author>
@@ -13,11 +13,11 @@
 	
 	<entry>
 		<title>Hemsidan är tillbaka! 🥳</title>
-		<link href="https://brfboken.nu/blog/weareback/"/>
+		<link href="https://brfboken.nu/Hemsidan/blog/weareback/"/>
 		<updated>2024-03-23T00:00:00Z</updated>
-		<id>https://brfboken.nu/blog/weareback/</id>
-		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://brfboken.nu/img/5HJWouxGsC-512.avif 512w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://brfboken.nu/img/5HJWouxGsC-512.webp 512w&quot;&gt;&lt;img alt=&quot;Bild genererad med hotpot.ai&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://brfboken.nu/img/5HJWouxGsC-512.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;h2 id=&quot;hemsidan-aer-ater-online&quot; tabindex=&quot;-1&quot;&gt;Hemsidan är åter online 🎉 &lt;a class=&quot;header-anchor&quot; href=&quot;https://brfboken.nu/blog/weareback/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+		<id>https://brfboken.nu/Hemsidan/blog/weareback/</id>
+		<content type="html">&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://brfboken.nu/Hemsidan/img/5HJWouxGsC-512.avif 512w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://brfboken.nu/Hemsidan/img/5HJWouxGsC-512.webp 512w&quot;&gt;&lt;img alt=&quot;Bild genererad med hotpot.ai&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://brfboken.nu/Hemsidan/img/5HJWouxGsC-512.png&quot; width=&quot;512&quot; height=&quot;512&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2 id=&quot;hemsidan-aer-ater-online&quot; tabindex=&quot;-1&quot;&gt;Hemsidan är åter online 🎉 &lt;a class=&quot;header-anchor&quot; href=&quot;https://brfboken.nu/Hemsidan/blog/weareback/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Efter en lång tid så är nu hemsidan tillbaka, här kommer vi att regelbundet uppdatera medlemmar och andra intressenter på vad som händer i föreningen.&lt;/p&gt;
 </content>
 	</entry>
