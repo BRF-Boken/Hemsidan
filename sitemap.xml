@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/blog/weareback/</loc>
+		<loc>https://brfboken.nu/blog/weareback/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/blog/</loc>
+		<loc>https://brfboken.nu/blog/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/foreningen/</loc>
+		<loc>https://brfboken.nu/foreningen/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/foreningen/stadgar/</loc>
+		<loc>https://brfboken.nu/foreningen/stadgar/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/foreningen/styrelsen/</loc>
+		<loc>https://brfboken.nu/foreningen/styrelsen/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/</loc>
+		<loc>https://brfboken.nu/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/maklare/</loc>
+		<loc>https://brfboken.nu/maklare/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://brfboken.nu/eleventy-base-blog/tags/</loc>
+		<loc>https://brfboken.nu/tags/</loc>
 		<lastmod>2024-03-23</lastmod>
 	</url>
 </urlset>
