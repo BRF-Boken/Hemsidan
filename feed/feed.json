@@ -2,8 +2,8 @@
 	"version": "https://jsonfeed.org/version/1.1",
 	"title": "Bostadsrättsföreningen Boken i Hovmantorp",
 	"language": "sv",
-	"home_page_url": "https://brfboken.nu/Hemsidan/",
-	"feed_url": "https://brfboken.nu/Hemsidan/feed/feed.json",
+	"home_page_url": "https://brfboken.nu/",
+	"feed_url": "https://brfboken.nu/feed/feed.json",
 	"description": "",
 	"author": {
 		"name": "Johannes Knutas",
@@ -11,10 +11,10 @@
 	},
 	"items": [
 		{
-			"id": "https://brfboken.nu/Hemsidan/blog/weareback/",
-			"url": "https://brfboken.nu/Hemsidan/blog/weareback/",
+			"id": "https://brfboken.nu/blog/weareback/",
+			"url": "https://brfboken.nu/blog/weareback/",
 			"title": "Hemsidan är tillbaka! 🥳",
-			"content_html": "<p><picture><source type=\"image/avif\" srcset=\"https://brfboken.nu/Hemsidan/img/5HJWouxGsC-512.avif 512w\"><source type=\"image/webp\" srcset=\"https://brfboken.nu/Hemsidan/img/5HJWouxGsC-512.webp 512w\"><img alt=\"Bild genererad med hotpot.ai\" loading=\"lazy\" decoding=\"async\" src=\"https://brfboken.nu/Hemsidan/img/5HJWouxGsC-512.png\" width=\"512\" height=\"512\"></picture></p>\n<h2 id=\"hemsidan-aer-ater-online\" tabindex=\"-1\">Hemsidan är åter online 🎉 <a class=\"header-anchor\" href=\"https://brfboken.nu/Hemsidan/blog/weareback/\">#</a></h2>\n<p>Efter en lång tid så är nu hemsidan tillbaka, här kommer vi att regelbundet uppdatera medlemmar och andra intressenter på vad som händer i föreningen.</p>\n",
+			"content_html": "<p><picture><source type=\"image/avif\" srcset=\"https://brfboken.nu/img/5HJWouxGsC-512.avif 512w\"><source type=\"image/webp\" srcset=\"https://brfboken.nu/img/5HJWouxGsC-512.webp 512w\"><img alt=\"Bild genererad med hotpot.ai\" loading=\"lazy\" decoding=\"async\" src=\"https://brfboken.nu/img/5HJWouxGsC-512.png\" width=\"512\" height=\"512\"></picture></p>\n<h2 id=\"hemsidan-aer-ater-online\" tabindex=\"-1\">Hemsidan är åter online 🎉 <a class=\"header-anchor\" href=\"https://brfboken.nu/blog/weareback/\">#</a></h2>\n<p>Efter en lång tid så är nu hemsidan tillbaka, här kommer vi att regelbundet uppdatera medlemmar och andra intressenter på vad som händer i föreningen.</p>\n",
 			"date_published": "2024-03-23T00:00:00Z"
 		}
 		
