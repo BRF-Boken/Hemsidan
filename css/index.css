@@ -213,6 +213,10 @@ nav {
 .dropdown:hover, .dropdown:active {
 	color: rgb(203, 228, 222)
 }
+
+.dropdown a {
+	text-decoration: none;
+}
   
 .dropdown-content {
 	display: none;
