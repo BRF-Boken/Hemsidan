@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="sv">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bostadsrättsföreningen Boken i Hovmantorp</title>
+		<meta name="description" content="">
+		<link rel="alternate" href="/eleventy-base-blog/feed/feed.xml" type="application/atom+xml" title="Bostadsrättsföreningen Boken i Hovmantorp">
+		<link rel="alternate" href="/eleventy-base-blog/feed/feed.json" type="application/json" title="Bostadsrättsföreningen Boken i Hovmantorp">
+		
+		<style>.postlist { counter-reset: start-from 2 }
+* { box-sizing: border-box; }
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: rgb(228, 228, 228);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050F;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: rgb(14, 131, 136);
+		--text-color-link-active: rgb(203, 228, 222);
+		--text-color-link-visited: rgb(14, 131, 136);
+
+		--background-color: rgb(34, 34, 34);
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+	
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	/*max-width: 70em;*/
+
+	display: flex;
+  	flex-direction: column;
+  	min-height: 100vh;
+	min-height: 100svh;
+	
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+	max-width: 70em;
+	margin: 0 auto;
+
+	flex: 1 0 auto;
+	
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	background-color: rgb(28, 33, 33);
+	z-index: 1;
+	
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 32px; 
+	font-weight: 700;
+	margin-right: 2em;
+	float: left;
+	width: auto;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+nav {
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: auto;
+}
+#navwrapper {
+	max-width: 70em;
+	margin: 0 auto;
+}
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 10px 0 0 0;
+	list-style: none;
+	
+	
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+/* Dropdown */
+.dropdown {
+	position: relative;
+	display: inline-block;
+	color: rgb(14, 131, 136);
+}
+
+.dropdown:hover, .dropdown:active {
+	color: rgb(203, 228, 222)
+}
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #333;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content, .dropdown:active .dropdown-content {
+	display: block;
+}
+/* Jumbo */
+.jumbotronbg {
+	background: url(../img/jumbotron.png) no-repeat center center;
+	
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	top:0;
+	left:0;
+	display: flex;
+	clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
+}
+  
+.jumbotron {
+	margin-bottom: 0px;
+	
+	color: white;
+	background:transparent;
+	
+	position: relative;
+}
+.jumbotron .container {
+	margin: 200px auto 80px auto;
+}
+  
+.jumbotron .container p {
+	margin: -20px 0 0 20px;
+}
+
+#jumbo h1 {
+	margin: 0;
+	padding: 0;
+}
+#jumbo h2 {
+	font-style: italic;
+	margin: 0;
+	padding: 0;
+}
+
+#startpage_content h1 {
+	margin-top: 2em;
+}
+
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	/*content: "" counter(start-from, decimal-leading-zero) ". ";*/
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}
+
+/* Footer */
+footer {
+	margin-top: 50px;
+	padding: 20px;
+	text-align: center;
+	background-color: rgb(4, 87, 87);
+	bottom: 0;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<div id="navwrapper">
+				<a href="/eleventy-base-blog/" class="home-link">Brf Boken</a>
+				<nav>
+					
+
+					
+						
+					<ul class="nav" role="list">
+  						
+					    	<li class="nav-item">
+					      		<a href="/eleventy-base-blog/blog/" aria-current="page">Nyheter</a>
+					    	</li>
+  						
+					    	<li class="nav-item">
+					      		<a href="/eleventy-base-blog/maklare/">Mäklarinformation</a>
+					    	</li>
+  						
+    						<li class="dropdown">
+					      <!--<details
+					          
+					        
+					          
+					        
+					      > -->
+					        <summary>Föreningen</summary>
+					        <ul role="list" class="dropdown-content">
+  						
+					    	<li class="nav-item">
+					      		<a href="/eleventy-base-blog/foreningen/styrelsen/">Styrelsen</a>
+					    	</li>
+  						
+					    	<li class="nav-item">
+					      		<a href="/eleventy-base-blog/foreningen/stadgar/">Stadgar &amp; Dokument</a>
+					    	</li></ul>
+					      	<!-- </details> -->
+					    	</li>
+					  	</ul>
+				
+				</nav>
+			</div>
+		</header>
+
+		<main id="skip">
+			<h1>Alla nyheter</h1>
+
+
+
+<ol reversed="" class="postlist">
+
+	<li class="postlist-item">
+		<a href="/eleventy-base-blog/blog/weareback/" class="postlist-link">Hemsidan är tillbaka! 🥳</a>
+		<time class="postlist-date" datetime="2024-03-23">23/03/2024</time>
+	</li>
+
+</ol>
+
+
+		</main>
+
+		<footer>
+			<b>© BRF Boken - styrelsen(a)brfboken.nu</b>
+		</footer>
+
+		<!-- This page `/eleventy-base-blog/blog/` was built on 2024-03-23T21:13:09.424Z -->
+	</body>
+</html>
