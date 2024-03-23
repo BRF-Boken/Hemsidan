@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+eleventyNavigation:
+  key: Nyheter
+  order: 2
+---
+<h1>Alla nyheter</h1>
+
+{% set postslist = collections.posts %}
+{% include "postslist.njk" %}
