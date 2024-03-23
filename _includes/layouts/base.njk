@@ -55,7 +55,7 @@
 					          {% endif %}
 					        {% endfor %}
 					      > -->
-					        <summary>{{ entry.title }}</summary>
+					        <summary><a href="{{ entry.url }}">{{ entry.title }}</a></summary>
 					        <ul role="list" class="dropdown-content">
 					          {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
 					        </ul>

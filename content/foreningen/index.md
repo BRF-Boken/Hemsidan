@@ -6,3 +6,6 @@ eleventyNavigation:
 ---
 # Föreningen
 
+[Styrelsen och revisorer](styrelsen)
+
+[Stadgar, ordningsregler & andra dokument](stadgar)
