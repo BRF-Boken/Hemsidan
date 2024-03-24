@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="sv">
 	<title>Bostadsrättsföreningen Boken i Hovmantorp</title>
-	<subtitle></subtitle>
+	<subtitle>Hemsida för bostadsrättsföreningen Boken i Hovmantorp</subtitle>
 	<link href="https://brfboken.nu/feed/feed.xml" rel="self"/>
 	<link href="https://brfboken.nu/"/>
 	<updated>2024-03-23T00:00:00Z</updated>
