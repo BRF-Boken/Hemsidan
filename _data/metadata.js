@@ -3,7 +3,7 @@ module.exports = {
 	logotext: "Brf Boken",
 	url: "https://brfboken.nu/",
 	language: "sv",
-	description: "",
+	description: "Hemsida för bostadsrättsföreningen Boken i Hovmantorp",
 	author: {
 		name: "Johannes Knutas",
 		email: "johannes.knutas@brfboken.nu",
