@@ -1,6 +1,6 @@
 ---
 title: Hemsidan är tillbaka! 🥳
-description: This is a post on My Blog about touchpoints and circling wagons.
+description: Hemsidan är tillbaka
 date: 2024-03-23
 
 ---
