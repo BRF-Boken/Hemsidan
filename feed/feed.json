@@ -11,6 +11,14 @@
 	},
 	"items": [
 		{
+			"id": "https://brfboken.nu/blog/staddag/",
+			"url": "https://brfboken.nu/blog/staddag/",
+			"title": "Städdag våren 2024",
+			"content_html": "<h2 id=\"staeddag\" tabindex=\"-1\">🧹🗑️ Städdag <a class=\"header-anchor\" href=\"https://brfboken.nu/blog/staddag/\">#</a></h2>\n<p>Den 6/4 kl 10:00 välkomnar styrelsen <strong>alla</strong> medlemmar till en städdag med olika roliga aktiviteter och grillning. Föreningen bjuder på korv och tillbehör. Det kommer också finnas möjlighet för medlemmar att slänga egna inventarier i containern.</p>\n<p>Vi samlas kl 10:00 vid grillplatsen för uppdelning av arbetsuppgifter</p>\n<p><em>//Styrelsen</em></p>\n",
+			"date_published": "2024-03-27T00:00:00Z"
+		}
+		,
+		{
 			"id": "https://brfboken.nu/blog/weareback/",
 			"url": "https://brfboken.nu/blog/weareback/",
 			"title": "Hemsidan är tillbaka! 🥳",

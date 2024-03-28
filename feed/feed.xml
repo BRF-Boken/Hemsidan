@@ -4,12 +4,24 @@
 	<subtitle>Hemsida för bostadsrättsföreningen Boken i Hovmantorp</subtitle>
 	<link href="https://brfboken.nu/feed/feed.xml" rel="self"/>
 	<link href="https://brfboken.nu/"/>
-	<updated>2024-03-23T00:00:00Z</updated>
+	<updated>2024-03-27T00:00:00Z</updated>
 	<id>https://brfboken.nu/</id>
 	<author>
 		<name>Johannes Knutas</name>
 		<email>johannes.knutas@brfboken.nu</email>
 	</author>
+	
+	<entry>
+		<title>Städdag våren 2024</title>
+		<link href="https://brfboken.nu/blog/staddag/"/>
+		<updated>2024-03-27T00:00:00Z</updated>
+		<id>https://brfboken.nu/blog/staddag/</id>
+		<content type="html">&lt;h2 id=&quot;staeddag&quot; tabindex=&quot;-1&quot;&gt;🧹🗑️ Städdag &lt;a class=&quot;header-anchor&quot; href=&quot;https://brfboken.nu/blog/staddag/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Den 6/4 kl 10:00 välkomnar styrelsen &lt;strong&gt;alla&lt;/strong&gt; medlemmar till en städdag med olika roliga aktiviteter och grillning. Föreningen bjuder på korv och tillbehör. Det kommer också finnas möjlighet för medlemmar att slänga egna inventarier i containern.&lt;/p&gt;
+&lt;p&gt;Vi samlas kl 10:00 vid grillplatsen för uppdelning av arbetsuppgifter&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;//Styrelsen&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Hemsidan är tillbaka! 🥳</title>
