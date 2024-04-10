@@ -4,12 +4,27 @@
 	<subtitle>Hemsida för bostadsrättsföreningen Boken i Hovmantorp</subtitle>
 	<link href="https://brfboken.nu/feed/feed.xml" rel="self"/>
 	<link href="https://brfboken.nu/"/>
-	<updated>2024-03-27T00:00:00Z</updated>
+	<updated>2024-04-10T00:00:00Z</updated>
 	<id>https://brfboken.nu/</id>
 	<author>
 		<name>Johannes Knutas</name>
 		<email>johannes.knutas@brfboken.nu</email>
 	</author>
+	
+	<entry>
+		<title>Kallelse till årsmöte 2024</title>
+		<link href="https://brfboken.nu/blog/arsmote2024/"/>
+		<updated>2024-04-10T00:00:00Z</updated>
+		<id>https://brfboken.nu/blog/arsmote2024/</id>
+		<content type="html">&lt;h2 id=&quot;nu-aer-det-dags-foer-arsmoete&quot; tabindex=&quot;-1&quot;&gt;🧑‍⚖️ Nu är det dags för årsmöte! &lt;a class=&quot;header-anchor&quot; href=&quot;https://brfboken.nu/blog/arsmote2024/&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Samtliga medlemmar i bostadsrättsföreningen Boken kallas härmed till stämma den 25 april kl 18:00 i Folketshus i Hovmantorp.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://brfboken.nu/pdf/Kallelse_2024.pdf&quot;&gt;Kallelse&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://brfboken.nu/pdf/Motion_Sjalvforvaltning.pdf&quot;&gt;Motion: Självförvaltning&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://brfboken.nu/pdf/Motion_Kallarlokaler.pdf&quot;&gt;Motion: Optimera användningen av källarlokaler&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://brfboken.nu/pdf/Motion_Malning.pdf&quot;&gt;Motion: Målning av trapphusen&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;//Styrelsen&lt;/em&gt;&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Städdag våren 2024</title>
