@@ -3,12 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Bostadsrättsföreningen Boken i Hovmantorp</title>
+		<title>Facebook &amp; Självförvaltning</title>
 		<meta name="description" content="Hemsida för bostadsrättsföreningen Boken i Hovmantorp">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Bostadsrättsföreningen Boken i Hovmantorp">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Bostadsrättsföreningen Boken i Hovmantorp">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -440,56 +608,29 @@ footer {
 
 		<main id="skip">
 			
-<div class="jumbotronbg"></div>
-<div class="jumbotron">
-    <div class="container">
-        <h1>Välkommen till Boken</h1>
-        <p>En bostadsrättsförening i Hovmantorp</p>
-    </div>
-</div>
+<h1>Facebook &amp; Självförvaltning</h1>
 
-
-
-<h1>Tags</h1>
-
-<ul>
-
+<ul class="post-metadata">
+	<li><time datetime="2024-05-08">08 May 2024</time></li>
 </ul>
 
+<h2 id="facebook" tabindex="-1">Facebook <a class="header-anchor" href="#facebook">#</a></h2>
+<p>Föreningen har nu en <a href="https://www.facebook.com/groups/405911722267795">Facebook sida</a>, in och kika och bli medlem för rolig löpande information samt smått och gott.</p>
+<h2 id="intresseanmaelan-till-sjaelvfoervaltning" tabindex="-1">Intresseanmälan till självförvaltning <a class="header-anchor" href="#intresseanmaelan-till-sjaelvfoervaltning">#</a></h2>
+<p>Självförvaltning är något vi medlemmar kan göra för att hålla ner kostnaderna i föreningen. Det är enkla arbeten såsom städning, trädgårdsskötsel mm som ger skattefritt avdrag på årsavgiften.</p>
+<p>För att gå med; kontakta styrelsen via epost styrelsen(a)brfboken.nu.</p>
+<p>Mer information kommer till de som går med i arbetsgruppen.</p>
+<p><em>//Styrelsen</em></p>
 
-<div id="startpage_content">
-    <h1>🔨 Felanmälan</h1>
-    <p>Felanmälan dagtid (vardagar 07.00-16.00) görs direkt till ansvarig fastighetstekniker via
-        mail eller telefon. Felanmälan kan också göras på <a href="https://axcell.se/felanmalan" target="_blank">Axcells hemsida</a><br>
-        Vid <b>AKUTA</b> fel utanför ordinarie arbetstid samt helger kontaktas Axcell fastighetsjour på
-        020-77 85 00 (även växelnummer dagtid). <br>
-        Övriga ärenden kan mailas direkt till fastighetstekniker alternativt till info@axcell.se</p>
-        
-        <p>Fastighetstekniker:<br>
-        Roger Svensson<br>
-        📞 070-526 50 39<br>
-        📧 roger.svensson@axcell.se
-        </p>
+<ul class="links-nextprev"><li>Föregående: <a href="/blog/arsmote2024/">Kallelse till årsmöte 2024</a></li>
+</ul>
 
-    <h1>📇 Kontakt</h1>
-    <p>
-        Styrelsen nås lättas via 📧 styrelsen(a)brfboken.nu<br>
-    </p>
-    <p>
-        <b>Ekonomisk förvaltning:</b><br>
-        HSB Sydost<br>
-        📞 010-451 30 00<br>
-        📧 kundtjanst.sydost@hsb.se<br>
-        <br>
-        <a href="https://mitthsb.hsb.se/" target="_blank">HSB Portalen</a>
-    </p>
-</div>
 		</main>
 
 		<footer>
 			<b>© BRF Boken - styrelsen(a)brfboken.nu</b>
 		</footer>
 
-		<!-- This page `/tags/` was built on 2024-05-08T18:51:14.877Z -->
+		<!-- This page `/blog/fbochsjalvforvaltning/` was built on 2024-05-08T18:51:14.875Z -->
 	</body>
 </html>
