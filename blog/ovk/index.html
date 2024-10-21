@@ -3,12 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Bostadsrättsföreningen Boken i Hovmantorp</title>
+		<title>OVK 4/11 08:00 - 16:00</title>
 		<meta name="description" content="Hemsida för bostadsrättsföreningen Boken i Hovmantorp">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Bostadsrättsföreningen Boken i Hovmantorp">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Bostadsrättsföreningen Boken i Hovmantorp">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -418,9 +586,6 @@ footer {
 					          
 					        
 					          
-					            class="is-active"
-					            open
-					          
 					        
 					      > -->
 					        <summary><a href="/foreningen/">Föreningen</a></summary>
@@ -431,7 +596,7 @@ footer {
 					    	</li>
   						
 					    	<li class="nav-item">
-					      		<a href="/foreningen/stadgar/" aria-current="page" >Stadgar &amp; Dokument</a>
+					      		<a href="/foreningen/stadgar/">Stadgar &amp; Dokument</a>
 					    	</li></ul>
 					      	<!-- </details> -->
 					    	</li>
@@ -442,14 +607,25 @@ footer {
 		</header>
 
 		<main id="skip">
-			<h1 id="stadgar-och-ordningsregler" tabindex="-1">📜 Stadgar och ordningsregler <a class="header-anchor" href="#stadgar-och-ordningsregler">#</a></h1>
-<p>Här kan du hitta föreningens gällande stadgar och ordningsregler</p>
-<p>🔗 <a href="/pdf/Stadgar.pdf">Stadgar</a></p>
-<p>🔗 <a href="/pdf/Ordningsregler-Bostadsr%C3%A4tt.pdf">Ordningsregler</a></p>
-<h1 id="dokument" tabindex="-1">🗄️ Dokument <a class="header-anchor" href="#dokument">#</a></h1>
-<p>Här under kan du också hitta andra dokument som är aktuella för din bostadsrätt</p>
-<p>🔗 <a href="/pdf/BrfBoken-St%C3%B6rningsblankett.pdf">Störningsblankett</a> fylles i vid störning, kan sedan lämnas i föreningensbrevlåda alternativt scannas in och översändes till styrelsen(a)brfboken.nu (eller till den gmail-adress som står i blanketten).</p>
-<p>🔗 <a href="/pdf/skydda-dig-mot-brand-hemma.pdf">Skydda dig</a> och <a href="/pdf/skydda-dig-och-dina-grannar-mot-brand.pdf">dina grannar mot brand</a></p>
+			
+<h1>OVK 4/11 08:00 - 16:00</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2024-10-21">21 October 2024</time></li>
+</ul>
+
+<h2 id="ovk-4-11" tabindex="-1">OVK 4/11 <a class="header-anchor" href="#ovk-4-11">#</a></h2>
+<p>Den 4/11 kl 08:00 - 16:00 kommer OVK-center utföra en OVK i samtliga bostadsrätter.
+Information har delats ut i samtligas brevlådor samt satts upp i samtliga trapphus.</p>
+<p><strong>Kan du inte vara hemma under hela den aviserade tiden?</strong></p>
+<p>OVK-besiktningsmannen arrangerar nyckelinsamling utanför porten vid Fiskaregatan 2 A mellan 07:40 och kl 08:00 samma dag som OVK ska utföras.
+Alternativt kan extranyckel lämnas i ett kuvert märkt med lägenhetsnummer senast dagen innan till ordförande Bengt Öhrbom.</p>
+<p><strong>Behöver du mer info?</strong></p>
+<p>Då kan du besöka <a href="https://www.ovkcenter.se/hur-gar-ovk-besiktning-till">denna sida</a></p>
+<p><em>//Styrelsen</em></p>
+
+<ul class="links-nextprev"><li>Föregående: <a href="/blog/fbochsjalvforvaltning/">Facebook &amp; Självförvaltning</a></li>
+</ul>
 
 		</main>
 
@@ -457,6 +633,6 @@ footer {
 			<b>© BRF Boken - styrelsen(a)brfboken.nu</b>
 		</footer>
 
-		<!-- This page `/foreningen/stadgar/` was built on 2024-10-21T19:04:47.064Z -->
+		<!-- This page `/blog/ovk/` was built on 2024-10-21T19:04:47.068Z -->
 	</body>
 </html>
