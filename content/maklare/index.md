@@ -37,9 +37,9 @@ Föreningen har en underhållsplan och följande större underhåll har gjort se
 - 2020-2021 - Dränering Sälen 16 och Hallen 11. Inkommande vattenrör och spill är bytta på Sälen 16
 
 
--   Byte till ledbelysning med pir i trapphus och källare 
+-   Byte till ledbelysning med pir i trapphus och källare
 -   Byte av källardörrar
-  
+
 
 - 2022 - Nya torktumlare och torkskåp installerade i alla tre tvättstugor
 
@@ -61,6 +61,12 @@ Föreningens stadgar, ordningsregler och andra viktiga dokument kan hittas [här
 
 
 ## Ekonomisk förvaltning
-Föreningens ekonomiska förvaltning sköts av HSB Sydost. 
-Telefon: 010-451 30 00
-kundtjanst.sydost@hsb.se
+Föreningens ekonomiska förvaltning sköts av HSB Göta (blivande HSB Mellersta Götaland).
+
+**Tel:** 0771-10 10 30
+
+**E-post:** servicecenter.mg@hsb.se
+
+Mån-tors: 8.00-16.00
+
+Fre: 8.00-15.00
