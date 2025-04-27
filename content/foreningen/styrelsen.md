@@ -20,9 +20,8 @@ ___
 | Ordförande | Bengt Öhrbom | bengt.ohrbom@brfboken.nu |
 | Vice-ordförande | Ulf Roos | |
 | Sekreterare | Johannes Knutas | johannes.knutas@brfboken.nu |
-| Ledamot | Lisa Andersson | |
-| Ledamot | Johannes Bredmar | |
-| Suppleant | Åsa Sjöland | |
+| Ledamot | Åsa Sjöland | |
+| Suppleant | Olivia Wickléus | |
 
 # Revisorer
 
@@ -30,4 +29,3 @@ ___
 | -- | -- |
 |Internrevisor | Christel Johansson |
 Auktoriserad Revisor |	Patrik Hansén (Access Revision & Rådgivning) |
-
