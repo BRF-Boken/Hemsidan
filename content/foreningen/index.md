@@ -9,3 +9,5 @@ eleventyNavigation:
 [Styrelsen och revisorer](styrelsen)
 
 [Stadgar, ordningsregler & andra dokument](stadgar)
+
+[Gymmet](gym)
