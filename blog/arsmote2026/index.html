@@ -3,12 +3,180 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Bostadsrättsföreningen Boken i Hovmantorp</title>
+		<title>Kallelse till årsmöte 2026</title>
 		<meta name="description" content="Hemsida för bostadsrättsföreningen Boken i Hovmantorp">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Bostadsrättsföreningen Boken i Hovmantorp">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="Bostadsrättsföreningen Boken i Hovmantorp">
 		
-		<style>* { box-sizing: border-box; }
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+* { box-sizing: border-box; }
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -420,9 +588,6 @@ footer {
 					          
 					        
 					          
-					            class="is-active"
-					            open
-					          
 					        
 					      > -->
 					        <summary><a href="/foreningen/">Föreningen</a></summary>
@@ -437,7 +602,7 @@ footer {
 					    	</li>
   						
 					    	<li class="nav-item">
-					      		<a href="/foreningen/gym/" aria-current="page" >Gym</a>
+					      		<a href="/foreningen/gym/">Gym</a>
 					    	</li></ul>
 					      	<!-- </details> -->
 					    	</li>
@@ -448,25 +613,22 @@ footer {
 		</header>
 
 		<main id="skip">
-			<h1 id="gym" tabindex="-1">🏋️🏃 Gym <a class="header-anchor" href="#gym">#</a></h1>
-<p>Föreningen har ett mindre gym som finns tillgänligt för alla boende. Gymmet återfinns intill tvättstugan på Fiskaregatan 2B.</p>
-<p><picture><source type="image/avif" srcset="/img/73crSADpkY-1008.avif 1008w"><source type="image/webp" srcset="/img/73crSADpkY-1008.webp 1008w"><img alt="Bild på gymmet" loading="lazy" decoding="async" src="/img/73crSADpkY-1008.jpeg" width="1008" height="756"></picture></p>
-<h1 id="utrustning-som-finns" tabindex="-1">Utrustning som finns <a class="header-anchor" href="#utrustning-som-finns">#</a></h1>
-<ul>
-<li>Multigym - <a href="/img/gymstick-home-gym-30.jpeg">Samtliga möjliga övningar kan du hitta här 🔗</a></li>
-<li>Hantlar</li>
-<li>Roddmaskin (Concept2 RowErg)</li>
-<li>Crosstrainer</li>
-<li>Gångband (med justerbar lutning)</li>
-<li>Motionscyckel</li>
+			
+<h1>Kallelse till årsmöte 2026</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2026-03-29">29 March 2026</time></li>
 </ul>
-<h1 id="regler" tabindex="-1">Regler <a class="header-anchor" href="#regler">#</a></h1>
-<ul>
-<li>Städa efter dig och rengör utrustningen efter användning.</li>
-<li>Föreningens övriga ordningsregler gäller även i gymmet, exempelvis tider då det förväntas vara tyst (<a href="/pdf/Ordningsregler-Bostadsr%C3%A4tt.pdf">🔗 Ordningsregler</a>)</li>
+
+<h2 id="nu-aer-det-dags-foer-arsmoete" tabindex="-1">🧑‍⚖️ Nu är det dags för årsmöte! <a class="header-anchor" href="#nu-aer-det-dags-foer-arsmoete">#</a></h2>
+<p>Samtliga medlemmar i bostadsrättsföreningen Boken kallas härmed till stämma den 24 april kl 18:00 i Folketshus i Hovmantorp.</p>
+<p><a href="/pdf/kallelse-2026.pdf">Kallelse</a></p>
+<p><a href="/pdf/Motion_Parkeringspolicy.pdf">Motion: Parkeringspolicy</a></p>
+<p>Årsredovisningen återfinns i HSB portalen under <a href="https://mitthsb.hsb.se/mitthsb/oversikt/mina-dokument/">&quot;Mina Dokument&quot;</a>, vill du ha årsredovisningen utskriven så kontaktar du styrelsen (förslagsvis via mail).</p>
+<p><em>//Styrelsen</em></p>
+
+<ul class="links-nextprev"><li>Föregående: <a href="/blog/pagangvinter2025/">På gång - Vinter 2025</a></li>
 </ul>
-<h1 id="aer-nagot-trasigt-eller-fungerar-nagot-daligt" tabindex="-1">Är något trasigt? Eller fungerar något dåligt? <a class="header-anchor" href="#aer-nagot-trasigt-eller-fungerar-nagot-daligt">#</a></h1>
-<p>Maila styrelsen omgående då du upptäcker fel på utrustningen!</p>
 
 		</main>
 
@@ -474,6 +636,6 @@ footer {
 			<b>© BRF Boken - styrelsen(a)brfboken.nu</b>
 		</footer>
 
-		<!-- This page `/foreningen/gym/` was built on 2026-03-29T10:41:28.475Z -->
+		<!-- This page `/blog/arsmote2026/` was built on 2026-03-29T10:41:28.480Z -->
 	</body>
 </html>
