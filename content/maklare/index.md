@@ -42,15 +42,16 @@ Föreningen har en underhållsplan och följande större underhåll har gjort se
 
 
 - 2022 - Nya torktumlare och torkskåp installerade i alla tre tvättstugor
+- 2025 - Trapphusen har målats om
 
 
 ## 👷 Planerat underhåll och kommande projekt
 
 - IMD-EL och Solceller
 
-- Upprustning av trapphus
-
 - Byggnation av miljöhus
+
+- Renovering av fasaderna
 
 
 ## Stadgar och Ordningsregler
