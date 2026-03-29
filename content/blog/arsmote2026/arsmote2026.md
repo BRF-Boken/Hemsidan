@@ -12,7 +12,7 @@ Samtliga medlemmar i bostadsrättsföreningen Boken kallas härmed till stämma 
 
 [Kallelse](/pdf/kallelse-2026.pdf)
 
-[Motion: Parkeringspolicy](/pdf/Motion_Parkeringspolicy.pdf)
+[Motion: Parkeringspolicy](/pdf/Motion_parkeringspolicy.pdf)
 
 Årsredovisningen återfinns i HSB portalen under ["Mina Dokument"](https://mitthsb.hsb.se/mitthsb/oversikt/mina-dokument/), vill du ha årsredovisningen utskriven så kontaktar du styrelsen (förslagsvis via mail).
 
