@@ -7,11 +7,13 @@ eleventyNavigation:
 ---
 # 📜 Stadgar och ordningsregler
 
-Här kan du hitta föreningens gällande stadgar och ordningsregler
+Här kan du hitta föreningens gällande stadgar och regler
 
-🔗 [Stadgar](/pdf/Stadgar.pdf) 
+🔗 [Stadgar](/pdf/Stadgar.pdf)
 
 🔗 [Ordningsregler](/pdf/Ordningsregler-Bostadsrätt.pdf)
+
+🔗 [Parkeringspolicy](/pdf/Parkeringspolicy.pdf)
 
 # 🗄️ Dokument
 
@@ -21,4 +23,3 @@ Här under kan du också hitta andra dokument som är aktuella för din bostadsr
 
 
 🔗 [Skydda dig](/pdf/skydda-dig-mot-brand-hemma.pdf) och [dina grannar mot brand](/pdf/skydda-dig-och-dina-grannar-mot-brand.pdf)
-
