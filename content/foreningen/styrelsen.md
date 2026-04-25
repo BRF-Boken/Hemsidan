@@ -21,6 +21,7 @@ ___
 | Vice-ordförande | Ulf Roos | |
 | Sekreterare | Johannes Knutas | johannes.knutas@brfboken.nu |
 | Ledamot | Åsa Sjöland | |
+| Ledamot | Per Gustafsson | |
 | Suppleant | Olivia Wickléus | |
 
 # Revisorer

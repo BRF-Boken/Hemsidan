@@ -62,7 +62,7 @@ Föreningens stadgar, ordningsregler och andra viktiga dokument kan hittas [här
 
 
 ## Ekonomisk förvaltning
-Föreningens ekonomiska förvaltning sköts av HSB Göta (blivande HSB Mellersta Götaland).
+Föreningens ekonomiska förvaltning sköts av HSB Mellersta Götaland.
 
 **Tel:** 0771-10 10 30
 
